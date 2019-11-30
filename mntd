@@ -1,0 +1,4 @@
+#! /bin/bash
+
+#Mount hard disk at sbd1  to /media/D
+sudo mount /dev/sdb1 /media/D
