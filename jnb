@@ -1,0 +1,7 @@
+#! /bin/bash
+
+#Launch Jupyter Notebook for remote access at port 8889
+
+echo "Command to connect to jupyter notebook: ssh -N -f -L localhost:8888:localhost:8889 USER@IP.IP.IP.IP"
+jupyter notebook --no-browser --port=8889
+
